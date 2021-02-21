@@ -1,0 +1,10 @@
+<h1>
+  <% if @winner == "incorrect hand submission" %>
+    <% return "please try again, player selection did not equal  'rock, paper or scissors'." %>
+  <% else %>
+    <%= @winner %> Wins This Round!
+  <% end %>
+</h1>
+<<h2>
+<a href='/stats' name='Continue'> Continue
+</h2>

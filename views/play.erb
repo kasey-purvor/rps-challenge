@@ -1,0 +1,18 @@
+<h1> Round: <%= $match.round %> </h1>
+<br>
+Please Take turn to Input your move.
+<br>
+<br>
+Do not allow the other player to see you selection. I dont care how, thats not my problem..
+<br>
+<br>
+Input leave input blank for random selection.
+<br>
+<br>
+<form action="/compute" method="post">
+  Player 1 Hand:
+  <input type="text" name="player_1_hand">
+  Player 2 Hand:
+  <input type="text" name="player_2_hand">
+  <input type="submit" name="Fight">
+</form>
